@@ -2,7 +2,7 @@ name: Daily USC Events Bot
 
 on:
   schedule:
-    - cron: "0 16 * * *"  # runs daily at 08:00 AM Pacific (UTC-8/UTC-7)
+    - cron: "0 16 * * 1"  # Runs every Monday at 08:00 AM Pacific (16:00 UTC)
   workflow_dispatch:      # allows manual run
 
 jobs:
